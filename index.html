@@ -1,0 +1,2351 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>NEW MEG</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		.g{
+			height: 30px;
+			width: 100%;
+			background:#454746;
+		}
+		.g1{
+			height:30px;
+			width: 70%;
+		
+		}
+		.g2{
+			height:30px;
+			width: 30%;
+			
+		}
+		
+		.box{
+			height: 100px;
+			width: 100%;
+			
+		}
+		.box1{
+			height: 100px;
+			width: 30%;
+			
+		}
+		.box2{
+			height: 100px;
+			width: 70%;
+			
+		}
+		.box3{
+			height: 80px;
+			width: 100%;
+			
+		}
+		.fl{
+			float: left;
+		}
+		.ml5{
+			margin-left: 5px;
+		}
+
+		.ml10{
+			margin-left: 10px;
+		}
+		.ml15{
+			margin-left: 15px;
+		}
+
+
+		.ml20{
+			margin-left: 20px;
+		}
+		.ml30{
+			margin-left: 30px;
+		}
+		.ml40{
+			margin-left: 40px;
+		}
+		.ml50{
+			margin-left: 50px;
+		}
+		.ml60{
+			margin-left: 60px;
+		}
+		.ml70{
+			margin-left: 70px;
+		}
+		.ml80{
+			margin-left: 80px;
+		}
+		.ml100{
+			margin-left: 100px;
+		}
+		.ml130{
+			margin-left: 130px;
+		}
+		.ml150{
+			margin-left: 150px;
+		}
+		.ml170{
+			margin-left: 170px;
+		}
+		.ml200{
+			margin-left: 200px;
+		}
+		.ml230{
+			margin-left: 230px;
+		}
+		.ml250{
+			margin-left: 250px;
+		}
+		
+		.ml300{
+			margin-left: 300px;
+		}
+		.ml320{
+			margin-left: 320px;
+		}
+		.ml380{
+			margin-left: 380px;
+		}
+		.ml600{
+			margin-left: 600px;
+		}
+		.mr5{
+			margin-right: 5px;
+		}
+		.mr10{
+			margin-right: 10px;
+		}
+		.mr70{
+			margin-right: 70px;
+		}
+		.mt-5{
+			margin-top:-5;
+		}
+		
+
+		.mt-15{
+			margin-top:-15px;
+		}
+
+		.mt5{
+			margin-top: 5px;
+		}
+		.mt10{
+			margin-top:10px;
+		}
+		.mt15{
+			margin-top: 15px;
+		}
+		
+		.mt20{
+			margin-top: 20px;
+		}
+		
+		.mt30{
+			margin-top: 30px;
+		}
+		.mt50{
+			margin-top: 50px;
+		}
+		.mt80{
+			margin-top: 80px;
+		}
+		.mt100{
+			margin-top: 100px;
+		}
+		.mt150{
+			margin-top: 150px;
+		}
+
+		.mt200{
+			margin-top: 200px;
+		}
+		.mt220{
+			margin-top: 220px;
+		}
+		.mt250{
+			margin-top: 250px;
+		}
+
+		.mt280{
+			margin-top: 280px;
+		}
+		.mt300{
+			margin-top: 300px;
+		}		
+		.mt400{
+			margin-top: 400px;
+		}
+		.mt430{
+			margin-top: 430px;
+		}
+		
+		.btn{
+			height: 40px;
+			width: 40px;
+			border: none;
+			background: white;
+		}
+		.btn1{
+			height: 20px;
+			width: 30px;
+		}
+		
+		.c{
+			color:white;
+		}
+		.c1{
+			color:black;
+		}
+		.c2{
+			color: #777;
+		}
+		.D{
+			height: 500px;
+			width: 100%;
+			background:violet;
+		}
+		.d1{
+			height: 500px;
+			width: 60%;
+			background-image: url(images/slider/slider1.jpg);
+			background-size: cover;
+		}
+		.d2{
+			height: 500px;
+			width: 40%;
+			background:green;
+		}
+
+		.d3{
+			height: 250px;
+			width: 100%;
+			background:gold;
+			background-image: url(images/slider/slider2.jpg);
+			background-size: cover;
+		}
+		.d4{
+			height: 250px;
+			width: 100%;
+			background:pink;
+			background-image: url(images/slider/slider3.jpg);
+			background-size: cover;
+		}
+
+		.bs{
+			height: 100%;
+			width: 100%;
+			background-image:  linear-gradient(#18131300, #000000);
+			}
+		
+		.btn2{
+			height: 30px;
+			width: 60px;
+			background: #3d9ddf;
+			border: none;
+			transition: 0.5s;
+		}
+		.btn2:hover{
+			height: 30px;
+			width: 60px;
+			background:#4b4f52;
+			border: none;
+			transition: 0.5s;
+		}
+		.btn3{
+			height: 30px;
+			width: 80px;
+			background:#e36493 ;
+			border: none;
+			transition: 0.5s;
+		}
+		.btn3:hover{
+			height: 30px;
+			width: 80px;
+			background:#4b4f52 ;
+			border: none;
+			transition: 0.5s;
+		}
+		.btn6{
+			height: 30px;
+			width: 60px;
+			background:#e36493;
+			border: none;
+			transition: 0.5s;
+		}
+		.btn6:hover{
+			background:#4b4f52 ;
+			transition: 0.5s;
+		}
+		.h2{
+			font-size: 30px;
+			color: white;
+			transition: 0.2s;
+
+		}
+		.h2:hover{
+			font-size: 30px;
+			color:#444;
+			transition: 0.2s;
+
+		}
+		.btn4{
+			height: 30px;
+			width: 110px;
+			background:#3d9ddf;
+			color: white;
+			border: none;
+			transition: 0.5s;
+		}
+		.btn4:hover{
+			height: 30px;
+			width: 110px;
+			background:#4b4f52;
+			color: white;
+			border: none;
+			transition: 0.5s;
+		}
+		.btn5{
+			height: 30px;
+			width: 80px;
+			background:#69b74f;
+			border: none;
+			transition: 0.5s;
+		}
+		.btn5:hover{
+			height: 30px;
+			width: 80px;
+			background:#4b4f52;
+			border: none;
+			transition: 0.5s;
+		}
+		.txt{
+			color: white;
+		}
+		.txt:hover{
+			color:#444;
+			transition: 0.2s;
+		}
+		.txt2{
+			color: white;
+		}
+		.txt2:hover{
+			color:#ff000075;
+			transition: 0.2s;
+		}
+		.div{
+			height: 200px;
+			width: 100%;
+			
+		}
+		.div1{
+			height: 100px;
+			width: 80%;
+			
+		}
+		.div2{
+			height: 50px;
+			width:200px;
+			background: #f75656;
+		
+		}
+		.div3{
+			height: 50px;
+			width:800px;
+			background:#fbfbfb;
+		}
+		.fn{
+			font-size: 20px;
+			border: none;
+		}
+		.fn1{
+			font-size: 22px;
+		}
+		.fn2{
+			font-size: 40px;
+		}
+		.txt1{
+			color:black;
+		}
+		.txt1:hover{
+			color:#f75656;
+		}
+		.txt2{
+			color:white;
+		}
+		.txt2:hover{
+			color:#f75656;
+		}
+		.txt3{
+			color:white;
+		}
+		.txt3:hover{
+			color:#ff00009e;
+		}
+
+		
+		.tt{
+			height: 800px;
+			width: 100%;
+			
+		}
+		.t{
+			height: 80px;
+			width: 100%;
+			
+		}
+
+		.m0{
+			margin: 0;
+		}
+		.t1{
+			height: 500px;
+			width:100%;
+		}
+		.t2{
+			height: 450px;
+			width:45%;
+		}
+		.t3{
+			height: 400px;
+			width: 100%;
+			background-image:url(images/trending3.jpg);
+			transition: 2s;
+			background-size: 110% 110%;
+			background-position: center;
+
+
+		}
+		.t3:hover{
+			height: 400px;
+			width: 100%;
+			background-image:url(images/trending3.jpg);
+			transition: 2s;
+			background-size: 100% 100%;
+		
+		}
+		.t4{
+			height: 100%;width: 100%;
+			transition: 2s;
+		}
+		.t4:hover{
+			background: #5a77947a;
+			transition: 2s;
+		}
+		.t5{
+			height: 200px;
+			width: 100%;
+			
+		}
+		.t6{
+			height: 200px;
+			width: 100%;
+			background: #00000087;
+		}
+		.t7{
+			height: 450px;
+			width: 20%;
+		
+		}
+		.t07{
+			height: 400px;
+			width: 100%;
+			background-image: url(images/1.jpg);
+			background-size: cover;
+
+		}
+		.t007{
+			height: 100%;
+			width: 100%;
+			background-image: linear-gradient(#ff000021,#000000ed);
+		}
+		
+		.t8{
+			height: 430px;
+			width: 20%;
+		
+		}
+		.t08{
+			height: 400px;
+			width: 100%;
+			background-image: url(images/2.jpg);
+			background-size: cover;
+		}
+		.t008{
+			height: 100%;
+			width: 100%;
+			background-image: linear-gradient(#ff000021,#000000ed);
+		}
+		.t9{
+			height: 100px;
+			width:100%;
+			
+		}
+		.t10{
+			height: 150px;
+			width: 100%;
+			
+		}
+		.t11{
+			height: 150px;
+			width: 80%;
+			background-image: url(images/pd1.jpg);
+			background-size: 100% 100%;
+			background-position: center;
+
+		}
+
+		.fs{
+			font-size: 25px;
+		}
+		.bs1{
+			box-shadow: 20px gray;
+		}
+		.h{
+			width: 90%;
+		}
+		.h1{
+			width: 85%;
+		}
+		.h2{
+			width: 100%;
+		}
+		.h3{
+			width: 32%;
+		}
+		.h5{
+			width:18%;
+		}
+		.l{
+			height: 600px;
+			width: 100%;
+		}
+		.l0{
+			height: 80px;
+			width: 100%;
+
+		}
+		.l1{
+			height: 500px;
+			width: 40%;
+			
+		}
+		.l01{
+			height: 480px;
+			width: 100%;
+			
+		}
+		.l001{
+			height: 480px;
+			width: 100%;
+			background-image: url(images/trending1.jpg);
+			background-position: center;
+			transition: 3s;
+			background-size: 110% 110%;
+
+		}
+		.l001:hover{
+			height: 480px;
+			width: 100%;
+			background-image: url(images/trending1.jpg);
+			background-position: center;
+			transition: 3s;
+			background-size: 100% 100%;
+		}
+		.l03{
+			height: 100%;
+			width: 100%;
+			transition: 2s;
+		}
+		.l03:hover{
+			background:#798eaa69;
+			transition: 2s;
+		}
+		.l003{
+			height:200px;
+			width: 100%;
+			background:#0000008a;
+		}
+
+
+		.l2{
+			height: 500px;
+			width: 40%;
+			
+		}
+		.l02{
+			height: 480px;
+			width: 100%;
+			
+		}
+		.l4{
+			height:480px;
+			width: 100%;
+			background-image:url(images/trending2.jpg);
+			background-size: cover;
+			background-position: center;
+			background-size:110% 110% ;
+			transition: 3s;
+		}
+		.l4:hover{
+			height:480px;
+			width: 100%;
+			background-image:url(images/trending2.jpg);
+			background-size: cover;
+			background-position: center;
+			background-size:100% 100% ;
+			transition: 3s;
+		}
+		.l5{
+			height: 100%;width: 100%;
+			transition: 2s;
+		}
+		.l5:hover{
+			background:#798eaa69;
+			transition: 2s;
+		}
+		.l6{
+			height: 200px;
+			width: 100%;
+			background:#0000008a;
+		}
+		.js{
+			height: 650px;
+			width: 100%;
+		
+		}
+		.js1{
+			height: 600px;
+			width: 40%;
+
+		}
+		.js01{
+			height: 150px;
+			width: 30%;
+		}
+
+		.js001{
+			height: 150px;
+			width: 70%;
+		}
+		.js2{
+			height: 600px;
+			width: 40%;
+		}
+		.b{
+			height: 350px;
+			width: 100%;
+			background-image: url(images/pd2.jpg);
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+		}
+
+		.shadow{
+			width: 100%;
+			height: 100%;
+			background: #0000008c;
+		}
+		.by{
+			height: 40px;
+			width: 100px;
+			background: white;
+			color:red;
+			border: none;
+			border-radius: 20px 20px;
+			transition: 0.3s;
+		}
+		.by:hover{
+			color:white;
+			background: #f75656;
+			transition: 0.3s;
+
+		}
+		.mv{
+			height: 600px;
+			width: 100%;
+			
+		}
+		.mv1{
+			height: 100px;
+			width: 100%;
+		}
+		.mv2{
+			height: 400px;
+			width: 20%;
+			
+		}
+		.mv3{
+			height: 400px;
+			width: 100%;
+			background-image: url(images/t.jpg);
+			background-size: cover;
+			background-position: center;
+		}
+		.mv03{
+			height:100%;
+			width: 100%;
+			background-image: linear-gradient(#fff4f400,#000000de);
+			
+		}
+		.mv003{
+			height: 150px;
+			width: 100%;
+			
+		}
+		.mv4{
+			height: 400px;
+			width: 100%;
+			background-image: url(images/m.jpg);
+			background-size: cover;
+			background-position: center;
+		}
+		.mv5{
+			height: 400px;
+			width: 100%;
+			background-image: url(images/1.jpg);
+			background-size: cover;
+			background-position: center;
+		}
+		.mv6{
+			height: 400px;
+			width: 100%;
+			background-image: url(images/c.jpg);
+			background-size: cover;
+			background-position: center;
+		}
+		.ca{
+			height: 600px;
+			width: 100%;
+		}
+		.ca1{
+			height: 100px;
+			width: 100%;
+			
+		}
+		.ca2{
+			height: 70px;
+			width: 50%;
+		}
+		.ca3{
+			height: 70px;
+			width: 50%;
+		
+		}
+		.btn7{
+			height:30px;
+			width: 130px;
+			border:none;
+			background: white;
+			transition: 0.2s;
+		}
+		.btn7:hover{
+			height:30px;
+			width: 130px;
+			border:none;
+			background:#32373c;
+			color: white;
+			transition: 0.2s;
+		}
+		.btn8{
+			height:30px;
+			width: 100px;
+			border:none;
+			background: white;
+			transition: 0.2s;
+		}
+		.btn8:hover{
+			height:30px;
+			width: 100px;
+			border:none;
+			background:#32373c;
+			color: white;
+			transition: 0.2s;
+		}
+		.bx{
+			height: 500px;
+			width: 40%;
+		}
+		.ca11{
+			height: 510px;
+			width: 100%;
+		}
+		.ca12{
+			height: 500px;
+			width: 40%;
+		}
+		.ca13{
+			height:500px;
+			width: 40%;
+			
+		}
+		.ca012{
+			height:500px;
+			width: 100%;
+			background-image:url(images/trending2.jpg);
+			background-size: cover;
+			background-position: center;
+			background-size:110% 110% ;
+			transition: 3s;
+		}
+		.ca012:hover{
+			height:500px;
+			width: 100%;
+			background-image:url(images/trending2.jpg);
+			background-size: cover;
+			background-position: center;
+			background-size:100% 100% ;
+			transition: 3s;
+		}
+		.hi{
+			height: 200px;
+			width: 100%;
+			background:#0000008a;
+		}
+		.ca00{
+			height: 500px;
+			width: 100%;
+		}
+		.ca01{
+			height: 520px;
+			width: 100%;
+			
+		}
+		.ca13{
+			height: 500px;
+			width: 40%;
+			
+		}
+		.ab{
+			height: 480px;
+			width: 100%;
+			background-image:url(images/trending3.jpg);
+			transition: 2s;
+			background-size: 110% 110%;
+			background-position: center;
+
+
+		}
+		.ab:hover{
+			height: 480px;
+			width: 100%;
+			background-image:url(images/trending3.jpg);
+			transition: 2s;
+			background-size: 100% 100%;
+		
+		}
+		.ab1{
+			height: 100%;width: 100%;
+			transition: 2s;
+		}
+		.ab1:hover{
+			background: #5a77947a;
+			transition: 2s;
+		}
+		.ab2{
+			height: 300px;
+			width: 100%;
+			
+		}
+		.ab3{
+			height: 180px;
+			width: 100%;
+			background: #00000087;
+		}
+		.he{
+			height: 690px;
+			width: 100%;
+		}
+		.he1{
+			height: 600px;
+			width: 90%;			
+		}
+		.he2{
+			height:560px;
+			width:280px;
+		}
+		.he2{
+			height:560px;
+			width:280px;
+			box-shadow:0px 0px 5px gray ;
+		}
+
+		.i1{
+			height: 340px;
+			width: 100%;
+			background-image: url(images/j.jpg);
+			background-size: cover;
+		}
+		.i2{
+			height: 200px;
+			width: 100%;
+			background-image: url(images/4.jpg);
+			background-size: cover;
+			background-position: center;
+		}
+		.i3{
+			height: 200px;
+			width: 100%;
+			background-image: url(images/5.jpg);
+			background-size: cover;
+			background-position: center;
+			
+		}
+		.i4{
+			height: 340px;
+			width: 100%;
+			background-image: url(images/6.jpg);
+			background-size: cover;
+			
+		}
+		.i5{
+			height: 500px;
+			width: 100px;
+			background: yellow;
+		}	
+		.hh{
+			height: 550px;
+			width: 540px;
+			background-image: url(images/7.jpg);
+			background-size: cover;
+		}
+		.f1{
+			height: 620px;
+			width: 100%;
+			
+		}	
+		.img{
+			height: 560px;
+			width: 370px;
+		}
+		.s{
+			height:280px;
+			width: 370px;
+			
+		}
+		.i6{
+			height: 280px;
+			width: 370px;
+			background-image: url(images/gallery1.jpg);
+			background-size: cover;
+			background-position: center;
+			background-size: 100% 100%;
+			transition: 3s;
+
+		}
+		.i6:hover{
+			background-size: 110% 110%;
+			transition: 3s;
+		}
+		.hk{
+			height: 280px;
+			width: 100%;
+			background: #00000094;
+/*			background-image: linear-gradient(#00000000,#00000073);*/
+		}
+		.divv{
+			height: 150px;
+			width: 100%;
+			
+		}
+		.txt4{
+			color:#ccc;
+		}
+		.txt4:hover{
+			color: white;
+		}
+		.i7{
+			height: 280px;
+			width: 370px;
+			background-image: url(images/gallery4.jpg);
+			background-size: cover;
+			background-position: center;
+			background-size: 100% 100%;
+			transition: 2s;
+		}
+		.i7:hover{
+			background-size: 110% 110%;
+			transition: 2s;
+		}
+		.colorr{
+			color:#ccc;
+		}
+		.i8{
+			height: 280px;
+			width: 370px;
+			background-image: url(images/gallery2.jpg);
+			background-size: cover;
+			background-position: center;
+			background-size: 100% 100%;
+			transition: 2s;
+		}
+		.i8:hover{
+			background-size: 110% 110%;
+			transition: 2s;
+		}
+		.i9{
+			height: 280px;
+			width: 370px;
+			background-image: url(images/gallery5.jpg);
+			background-size: cover;
+			background-position: center;
+			background-size: 100% 100%;
+			transition: 2s;
+		}
+		.i9:hover{
+			background-size: 110% 110%;
+			transition: 2s;
+		}
+		.i10{
+			height: 280px;
+			width: 370px;
+			background-image: url(images/gallery3.jpg);
+			background-size: cover;
+			background-position: center;
+			background-size: 100% 100%;
+			transition: 2s;
+		}
+		.i10:hover{
+			background-size: 110% 110%;
+			transition: 2s;
+		}
+		.i11{
+			height: 280px;
+			width: 370px;
+			background-image: url(images/gallery6.jpg);
+			background-size: cover;
+			background-position: center;
+			background-size: 100% 100%;
+			transition: 2s;
+		}
+		.i11:hover{
+			background-size: 110% 110%;
+			transition: 2s;
+		}
+		.ft{
+			height: 900px;
+			width: 100%;
+			background:black;
+		}
+		.ft1{
+			height: 60px;
+			width: 100%;
+			
+		}
+		.ft2{
+			height: 000px;
+			width: 100%;
+/*			background: greenyellow;*/
+			background:#00000094 url(images/footerbg.png) ;
+			background-position: center;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.shadow1{
+			width: 100%;
+			height: 100%;
+			background: #00000094;
+		}
+		.ft3{
+			height: 200px;
+			width: 100%;
+			
+		}
+		.no1{
+			height: 200px;
+			width: 14%;
+			
+		}
+		.new{
+			height: 400px;
+			width:28%;
+			
+		}
+		.cat{
+			height: 400px;
+			width: 15%;
+			
+		}
+		.new1{
+			height: 400px;
+			width: 25%;
+			
+		}
+		.copy{
+			height: 50px;
+			width: 40%;
+			
+		}
+		
+	</style>
+</head>
+<body style="margin: 0;">
+	<div class="g">
+		<div class="g1 fl">
+				<i class="fa fa-clock-o c mt5 ml100" aria-hidden="true"></i>
+					<span class="c ">2023-07-04</span>
+				<i class="fa fa-cloud c " aria-hidden="true"></i>
+					<span style="color:white;">Bapunagar Ahmedabad</span>
+		</div>
+		<div class="g2 fl">
+			<i class="fa fa-facebook c ml250 mt5 fl" aria-hidden="true"></i>
+			<i class="fa fa-twitter c ml10 mt5" aria-hidden="true"></i>
+			<i class="fa fa-instagram c ml10 mt5" aria-hidden="true"></i>
+			
+		</div>
+	</div>
+
+	<div class="box">
+		<div class="box1 fl">
+			<img src="images/logo1.png" class="ml50 mt20">	
+		</div>
+		<div class="box2 fl">
+			<div class="box3 fl mt10">
+				<a href="index.html"><p class="ml20 mt30 fl txt1" style="cursor: pointer;">HOME</p></a>
+				<a href="blog.html"style="cursor: pointer;"><p class="ml20 mt30 fl txt1">BLOG</p></a>
+				<a href="shop.html"style="cursor: pointer;"><p class="ml20 mt30 fl txt1">SHOP LIST</p></a>
+				<a href="account.html"style="cursor: pointer;"><p class="ml20 mt30 fl txt1">ACCOUNT</p></a>
+				<a href="cart.html"style="cursor: pointer;"><p class="ml20 mt30 fl txt1">CART</p></a>
+				<a href="check.html"style="cursor: pointer;"><p class="ml20 mt30 fl txt1">CHECK OUT</p></a>
+				<a href="detail.html"style="cursor: pointer;"><p class="ml20 mt30 fl txt1">DETAIL</p></a>
+				<a href="about.html"style="cursor: pointer;"><p class="ml20 mt30 fl txt1">ABOUT US</p></a>
+				<a href="contact.html"style="cursor: pointer;"><p class="ml20 mt30 fl txt1">CONTACT US</p></a>
+				<button class="btn fl ml20 mt20">
+					<i class="fa fa-search" aria-hidden="true"></i>
+				</button>
+				
+			</div>
+		</div>
+	</div>
+<div class="D">
+		<div class="d1 fl">
+		<div class="bs">
+			<button class="btn2 mt400 ml320 fl c">#New</button>
+			<button class="btn3 c mt400 ml10">#Health</button>
+			<h2 class="h2 ml230 mt5">Discover your true health</h2>
+			<a  class="txt">
+				<i class="fa fa-user  ml250 mt-15 fl " aria-hidden="true"></i>
+				<span class=" mt-15 fl  ml5 ">John Deo</span>
+			</a>
+			<i class="fa fa-clock-o c mt-15 fl ml10" aria-hidden="true"></i>
+			<span class="fl c mt-15 ml5">12 May</span>
+			<a class="txt">
+				<i class="fa fa-comments fl mt-15 ml10 " aria-hidden="true"></i>
+				<span class="fl ml5 mt-15 ">5 Comments</span>
+			</a>
+		</div>
+	</div>
+		<div class="d2 fl">
+			<div class="d3">
+			<!-- ds -->
+			<!-- div start -->
+				<div class="bs">
+					<button class="btn4 ml150 mt150 fl c">#Entertainment</button>
+					<button class="btn5 mt150 ml10 c">#Health</button>
+					<h2 class="h2 ml80 mt5 fl">Top 10 Dancers you should</h2>
+					<a class="txt">
+						<i class="fa fa-user  ml130 mt-15 fl " aria-hidden="true"></i>
+						<span class="fl  mt-15 ml5">Micheal Jackson</span>
+					</a>
+						<i class="fa fa-clock-o c mt-15 fl ml10" aria-hidden="true"></i>
+						<span class="fl c mt-15 ml5">1 July</span>
+					<a class="txt">
+						<i class="fa fa-comments fl mt-15 ml10 " aria-hidden="true"></i>
+						<span class="fl ml5 mt-15 ">5 Comments</span>
+					</a>
+				</div>
+			</div>
+<!-- div close -->
+<!-- dc -->
+
+			<div class="d4">
+				<div class="bs">
+					<button class="btn5 ml150 mt150 fl c">#Religion</button>
+					<button class="btn3 mt150 ml10 c">#New</button>
+					<h2 class="h2 ml80 mt5 fl">What did Buddha teach?</h2>
+					<a class="txt">
+						<i class="fa fa-user  ml150 mt-15 fl " aria-hidden="true"></i>
+						<span class="fl  mt-15 ml5">Tom Richardson</span>
+					</a>
+						<i class="fa fa-clock-o c mt-15 fl ml10" aria-hidden="true"></i>
+						<span class="fl c mt-15 ml5">12 June</span>
+					 <a class="txt">
+						<i class="fa fa-comments fl mt-15 ml10 " aria-hidden="true"></i>
+						<span class="fl ml5 mt-15 ">5 Comments</span>
+					</a>
+					
+				</div>
+
+			</div>
+
+		</div>
+</div>
+<!-- div start -->
+<div class="div">
+	<div class="div1 mt50 ml150 fl">
+		<button class="div2 ml20 mt20 c fn fl ">Breaking News</button>
+		<div class="div3 fl mt20">
+			<marquee>		
+					<p class="txt1 mt20 fl"><i class="fa fa-circle ml10" aria-hidden="true" style="font-size: 10px;color: black;">
+						</i>“Speaks perfect English”: Trump’s offensive praise of a 	 Latino Border Patrol agent
+						<i class="fa fa-circle ml10" aria-hidden="true" style="font-size: 10px;color: black;">
+						</i>
+						Watch J. Lo live her best life, Nicki Minaj go regal, and Ariana Grande go religious
+						<i class="fa fa-circle ml10 mr10" aria-hidden="true" style="font-size:10px;color: black;"></i>Tesla fans have found a new person to blame for Elon Musk’s troubles: his girlfriend
+						<i class="fa fa-circle ml10 mr10" aria-hidden="true" style="font-size:10px;color: black;"></i> The Pentagon won’t check if US bombs killed kids in Yemen. CNN did it for them
+					</p>
+			</marquee>
+		</div>
+	</div>
+</div>
+<!-- div closed -->
+
+
+<!-- top start -->
+<div class="tt">
+	<div class="t">
+		<h1 class="ml100">Top Treading</h1><hr class="h1">
+	</div>
+	<div class="t1">
+		<div class="t2 fl ml100">
+			<div class="t3 mt20 fl">
+				<div class="t4">
+					<div class="t5"></div>
+						<div class="t6"><br>
+							<center><h4 class="c fs txt m0">Creativity comes within itself for everyone</h4>
+								<button class="btn2 mt20">#New</button>
+								<button class="btn5">#Education</button>
+								<button class="btn3">#Children</button>
+								<p class="c">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+							<a class="txt">
+								<i class="fa fa-user  ml150 fl " aria-hidden="true"></i>
+								<span class="fl  ml5">john Deo</span>
+							</a>
+								<i class="fa fa-clock-o c fl ml10" aria-hidden="true"></i>
+								<span class="fl c  ml5">12 May</span>
+					 		<a class="txt">
+								<i class="fa fa-comments fl  ml10 " aria-hidden="true"></i>
+								<span class="fl ml5 ">2 Comments</span>
+							</a></center>
+						</div>
+				</div>
+			</div></div>
+				<div class="t7 fl ml20 bs1">
+					<div class="t07 mt20">
+						<div class="t007">
+							<div class="t9 mt300 fl">
+								<center><h3 class="c fn m0 txt2">Traffic, A Big Problem</h3><hr class="h">
+							<a class="txt2">
+								<i class="fa fa-user" aria-hidden="true"></i>
+								<span class="  ml5">john Deo</span>
+							</a>
+								<i class="fa fa-clock-o c ml10" aria-hidden="true"></i>
+							 	<span class="c ml5">12 May</span><br>
+							 	<button class="btn2 mt5">#New</button>	
+							 	<button class="btn5 ml10 mt5">#Politics</button>
+							 	</center>
+							</div>
+						</div>
+						
+					</div>		
+				</div>	
+				<div class="t8 ml20 fl">
+					<div class="t08 mt20 ">
+						<div class="t008">
+							<div class="t9 mt300 fl">
+								<center><h3 class="c fn m0 txt2">Best Gadgets in town</h3><hr class="h">
+							<a class="txt2">
+								<i class="fa fa-user" aria-hidden="true"></i>
+								<span class="  ml5">Mr.Gedget</span>
+							</a>
+								<i class="fa fa-clock-o c ml10" aria-hidden="true"></i>
+							 	<span class="c ml5">12 April</span><br>
+							 	<button class="btn2 mt5">#New</button>	
+							 	<button class="btn5 ml10 mt5">#Health</button>
+							 	</center>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+	</div>
+	<div class="t10">
+		<center><div class="t11">
+		</div></center>		
+	</div>
+</div>
+<!-- top closed -->
+
+
+<!-- Latest Posts start -->
+<div class="l">
+	<div class="l0">
+		<h1 class="ml100">Latest Posts</h1><hr class="h1">
+	</div>
+	<div class="l1 fl ml100">
+		<div class="l01 mt15">
+			<div class="l001">
+				<div class="l03">
+					<div class="l003 mt280 fl">
+						<center><h2 class="c txt">New Generation of people loving food</h2>
+							<button class="btn2 mt5">#New</button>	
+							<button class="btn5 ml5 mt5">#Sports</button>
+							<button class="btn3 ml5">#Treading</button>
+							<p class="c">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+							<a class="txt">
+								<i class="fa fa-user" aria-hidden="true"></i>
+								<span>john Deo</span>
+							</a>
+								<i class="fa fa-clock-o c ml10" aria-hidden="true"></i>
+							 	<span class="c">12 May</span>
+							 <a class="txt">
+								<i class="fa fa-comments ml10" aria-hidden="true"></i>
+								<span>2 Comments</span>
+							</a>
+						</center>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="l2 fl ml30">
+		<div class="l02 mt15">
+			<div class="l4">
+				<div class="l5">
+					<div class="l6 mt280 fl">
+						<center><h3 class="c fn1 txt">2018’s most fascinating governor’s election, explained</h3>
+							<button class="btn2 mt5">#New</button>	
+							<button class="btn5 ml5 mt5">#Security</button>
+							<button class="btn3 ml5">#Politics</button>
+							<p class="c">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+							<a class="txt">
+								<i class="fa fa-user" aria-hidden="true"></i>
+								<span>john Deo</span>
+							</a>
+								<i class="fa fa-clock-o c ml10" aria-hidden="true"></i>
+								<span class="c">12 May</span>
+							<a class="txt">
+								<i class="fa fa-comments ml10" aria-hidden="true"></i>
+								<span>2 Comments</span>
+							</a></center>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="js">
+	<div class="js1 fl ml100">
+		<div class="js01 fl">
+			<img src="images/small4.jpg" style="height: 150px;width: 100%;">
+		</div>
+		<div class="js001 fl">
+			<h3 class="fn txt1 ml10">Watch: the 3 best performances of the 2018 VMAs</h3>
+			<a class="txt1 ml10">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<span>john Deo</span>
+			</a>
+				<i class="fa fa-clock-o c ml10 c1" aria-hidden="true"></i>
+				<span class="c1">12 May</span>
+			<a class="txt1">
+				<i class="fa fa-comments ml10" aria-hidden="true"></i>
+				<span>5 Comments</span>
+			</a><br>
+			<button class="btn2 mt15 ml10">#New</button>	
+			<button class="btn5 ml10">#Health</button>
+		</div>
+		<hr style="border:1px dashed #ddddddf5">
+		<div class="js01 fl mt20">
+			<img src="images/small5.jpg" style="height:150px;width:100%">
+		</div>
+		<div class="js001 fl mt20">
+			<h3 class="txt1 ml10 fn">Music bringing people together everywhere</h3>
+			<a class="txt1 ml10">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<span>john Deo</span>
+			</a>
+			<i class="fa fa-clock-o c ml10 c1" aria-hidden="true"></i>
+			<span class="c1">12 May</span>
+			<a class="txt1">
+				<i class="fa fa-comments ml10" aria-hidden="true"></i>
+				<span>5 Comments</span>
+			</a><br>
+			<button class="btn2 mt15 ml10">#New</button>	
+			<button class="btn3 ml10">#Health</button>
+		</div>
+		<hr style="border:1px dashed #ddddddf5">
+		<div class="js01 mt20 fl">
+			<img src="images/small6.jpg" style="height:150px;width:100%">		
+		</div>
+		<div class="js001 fl mt20">
+			<h2 class="fn ml10 txt1">“Speaks perfect English”: Trump’s offensive praise of a Latino Border Patrol agent
+			</h2>
+			<a class="txt1 ml10">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<span>john Deo</span>
+			</a>
+			<i class="fa fa-clock-o c ml10 c1" aria-hidden="true"></i>
+			<span class="c1">12 May</span>
+			<a class="txt1">
+				<i class="fa fa-comments ml10" aria-hidden="true"></i>
+				<span>5 Comments</span>
+			</a><br>
+			<button class="btn2 ml10">#New</button>	
+			<button class="btn5 ml10">#Health</button>
+		</div>
+		<hr style="border:1px dashed #ddddddf5">
+	</div>
+	<div class="js2 fl ml30">
+		<div class="js01 fl">
+			<img src="images/small1.jpg" style="height:150px;width:100%">
+		</div>
+		<div class="js001 fl">
+			<h2 class="fn ml10 txt1">7 reasons Hollywood doesn’t make romantic comedies anymore</h2>
+			<a class="txt1 ml10">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<span>john Deo</span>
+			</a>
+			<i class="fa fa-clock-o c ml10 c1" aria-hidden="true"></i>
+			<span class="c1">12 May</span>
+			<a class="txt1">
+				<i class="fa fa-comments ml10" aria-hidden="true"></i>
+				<span>5 Comments</span>
+			</a><br>
+			<button class="btn6 mt20 ml10">#New</button>
+			<button class="btn5 mt20 ml10">#Sports</button>
+		</div>
+		<hr style="border:1px dashed #ddddddf5">
+
+		<div class="js01 fl mt20">
+			<img src="images/small2.jpg" style="height:150px;width:100%;">
+		</div>
+		<div class="js001 fl mt20">
+			<h2 class="fn ml10 mt20 txt1">Must have gadgets in this century</h2>
+			<a class="txt1 ml10">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<span>john Deo</span>
+			</a>
+			<i class="fa fa-clock-o c ml10 c1" aria-hidden="true"></i>
+			<span class="c1">12 May</span>
+			<a class="txt1">
+				<i class="fa fa-comments ml10" aria-hidden="true"></i>
+				<span>5 Comments</span>
+			</a><br>
+			<button class="btn2 mt30 ml10">#New</button>	
+			<button class="btn3 ml10">#Health</button>
+		</div>
+		<hr style="border:1px dashed #ddddddf5">
+		<div class="js01 fl mt20">
+			<img src="images/small3.jpg" style="height:150px;width: 100%;">
+		</div>
+		<div class="js001 fl mt20">
+			<h2 class="fn ml10 mt30 txt1">Why conservatives love to hate Alexandria Ocasio-Cortez</h2>
+			<a class="txt1 ml10">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<span>john Deo</span>
+			</a>
+			<i class="fa fa-clock-o c ml10 c1" aria-hidden="true"></i>
+			<span class="c1">12 May</span>
+			<a class="txt1">
+				<i class="fa fa-comments ml10" aria-hidden="true"></i>
+				<span>5 Comments</span>
+			</a><br>
+			<button class="btn2 mt5 ml10">#New</button>	
+			<button class="btn5 ml10">#Health</button>
+
+
+		</div>
+		<hr style="border:1px dashed #ddddddf5">
+	</div>
+</div>
+<div class="b">
+	<div class="shadow">
+		<center><b><h1 class="c fn2"><br>Build your dream magazine now</h1></b>
+		<p class="c fn1">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing<br> layouts and visual mockups. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua.</p></center><br>
+		<button class="by ml600">Buy Now</button>
+	</div>
+</div>
+<!-- Latest Posts closed-->
+
+
+<!-- most viewed start -->
+<div class="mv">
+	<div class="mv1 mt20 fl">
+		<h1 class="ml100 ">Most Viewed</h1><hr class="h1">
+	</div>
+	<div class="mv2 mt20 fl ml100">
+		<div class="mv3">
+			<div class="mv03  fl">
+				<div class="mv003 mt250 fl">
+					<center><h2 class="txt2">Technology and Music</h2><hr class="h1">
+						<a class="txt2 ml10">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span>john Deo</span>
+						</a>
+						<i class="fa fa-clock-o c ml10 c" aria-hidden="true"></i>
+						<span class="c">12 May</span><br>
+						<button class="btn2 mt15">#New</button>	
+						<button class="btn3">#Health</button>
+					</center>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mv2 mt20 fl ml20">
+		<div class="mv4">
+			<div class="mv03">
+				<div class="mv003 mt250 fl">
+					<center><h2 class="txt2">Raising a child</h2><hr class="h1">
+						<a class="txt2 ml10">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span>john Deo</span>
+						</a>
+						<i class="fa fa-clock-o c ml10 c" aria-hidden="true"></i>
+						<span class="c">12 May</span><br>
+						<button class="btn2 mt15">#New</button>	
+						<button class="btn5">#Health</button>
+						</center>
+				</div>
+				
+			</div>
+		</div>
+		
+	</div>
+	<div class="mv2 mt20 fl ml20">
+		<div class="mv5">
+			<div class="mv03">
+				<div class="mv003 mt250 fl">
+					<center><h2 class="txt2">Traveling</h2><hr class="h1">
+						<a class="txt2 ml10">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span>john Deo</span>
+						</a>
+						<i class="fa fa-clock-o c ml10 c" aria-hidden="true"></i>
+						<span class="c">12 May</span><br>
+						<button class="btn6 mt15">#New</button>	
+						<button class="btn5">#Health</button>
+						</center>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<div class="mv2 mt20 fl ml20">
+		<div class="mv6">
+			<div class="mv03">
+				<div class="mv003 mt250 fl">
+					<center><h2 class="txt2">Raising a child</h2><hr class="h1">
+						<a class="txt2 ml10">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span>john Deo</span>
+						</a>
+						<i class="fa fa-clock-o c ml10 c" aria-hidden="true"></i>
+						<span class="c">12 May</span><br>
+						<button class="btn2 mt15">#New</button>	
+						<button class="btn5">#Health</button>
+						</center>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+ <!-- most viewed end  -->
+
+
+ <!-- Categories start -->
+<div class="ca">
+	<div class="ca1">
+		<div class="ca2 fl">
+			<h1 class="ml100">Categories</h1>
+		</div>
+		<div class="ca3 fl"><br>
+				<button class="btn7 c2 ml100 mt10"><i class="fa fa-trophy mr5" aria-hidden="true"></i>Entertainment</button>
+				<button class="btn8 c2 ml10"><i class="fa fa-globe mr5" aria-hidden="true"></i>Politics
+				</button>
+				<button class="btn8 c2 ml10"><i class="fa fa-briefcase mr5" aria-hidden="true"></i>Business</button>
+				<button class="btn8 c2 ml10"><i class="fa fa-dribbble mr5" aria-hidden="true"></i>Sports</button>
+		</div>
+		<hr class="h1">
+	</div>
+	<div class="l1 fl ml100">
+		<div class="l01">
+			<div class="l001">
+				<div class="l03">
+					<div class="l003 mt280 fl">
+					<center><h2 class="c txt">New Generation of people loving food</h2>
+							<button class="btn2 mt5">#New</button>	
+							<button class="btn5 ml5 mt5">#Sports</button>
+							<button class="btn3 ml5">#Treading</button>
+							<p class="c">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+							<a class="txt">
+								<i class="fa fa-user" aria-hidden="true"></i>
+								<span>john Deo</span>
+							</a>
+								<i class="fa fa-clock-o c ml10" aria-hidden="true"></i>
+							 	<span class="c">12 May</span>
+							 <a class="txt">
+								<i class="fa fa-comments ml10" aria-hidden="true"></i>
+								<span>2 Comments</span>
+							</a>
+						</center>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bx fl ml30">
+		<div class="js01 fl">
+			<img src="images/small1.jpg" style="height:140px;width:100%">
+		</div>
+		<div class="js001 fl">
+			<h2 class="fn ml10 txt1">7 reasons Hollywood doesn’t make romantic comedies anymore</h2>
+			<a class="txt1 ml10">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<span>john Deo</span>
+			</a>
+			<i class="fa fa-clock-o c ml10 c1" aria-hidden="true"></i>
+			<span class="c1">12 May</span>
+			<a class="txt1">
+				<i class="fa fa-comments ml10" aria-hidden="true"></i>
+				<span>5 Comments</span>
+			</a><br>
+			<button class="btn6 mt20 ml10">#New</button>
+			<button class="btn5 mt20 ml10">#Sports</button>
+		</div>
+		<hr style="border:1px dashed #ddddddf5">
+
+		<div class="js01 fl">
+			<img src="images/small2.jpg" style="height:140px;width:100%;">
+		</div>
+		<div class="js001 fl">
+			<h2 class="fn ml10 mt30 txt1">Must have gadgets in this century</h2>
+			<a class="txt1 ml10">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<span>john Deo</span>
+			</a>
+			<i class="fa fa-clock-o c ml10 c1" aria-hidden="true"></i>
+			<span class="c1">12 May</span>
+			<a class="txt1">
+				<i class="fa fa-comments ml10" aria-hidden="true"></i>
+				<span>5 Comments</span>
+			</a><br>
+			<button class="btn2 mt30 ml10">#New</button>	
+			<button class="btn3 ml10">#Health</button>
+		</div>
+		<hr style="border:1px dashed #ddddddf5">
+
+		<div class="js01 fl">
+			<img src="images/small3.jpg" style="height:140px;width: 100%;">
+		</div>
+		<div class="js001 fl">
+			<h2 class="fn ml10 txt1">Why conservatives love to hate Alexandria Ocasio-Cortez</h2>
+			<a class="txt1 ml10">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<span>john Deo</span>
+			</a>
+			<i class="fa fa-clock-o c ml10 c1" aria-hidden="true"></i>
+			<span class="c1">12 May</span>
+			<a class="txt1">
+				<i class="fa fa-comments ml10" aria-hidden="true"></i>
+				<span>5 Comments</span>
+			</a><br>
+			<button class="btn2 mt10 ml10">#New</button>	
+			<button class="btn5 ml10">#Health</button>
+		</div>
+		<hr style="border:1px dashed #ddddddf5">
+	</div>
+</div>
+ <!-- Categories end -->
+
+<!-- categories1 start-->
+<div class="ca11">
+	<div class="ca12 fl ml100">
+		<div class="js01 fl">
+			<img src="images/small4.jpg" style="height: 150px;width: 100%;">
+		</div>
+		<div class="js001 fl">
+			<h3 class="fn txt1 ml10">Watch: the 3 best performances of the 2018 VMAs</h3>
+			<a class="txt1 ml10">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<span>john Deo</span>
+			</a>
+				<i class="fa fa-clock-o c ml10 c1" aria-hidden="true"></i>
+				<span class="c1">12 May</span>
+			<a class="txt1">
+				<i class="fa fa-comments ml10" aria-hidden="true"></i>
+				<span>5 Comments</span>
+			</a><br>
+			<button class="btn2 mt15 ml10">#New</button>	
+			<button class="btn5 ml10">#Health</button>
+		</div>
+		<hr style="border:1px dashed #ddddddf5">
+
+		<div class="js01 fl mt10">
+			<img src="images/small5.jpg" style="height:150px;width:100%">
+		</div>
+		<div class="js001 fl mt10">
+			<h3 class="txt1 ml10 fn">Music bringing people together everywhere</h3>
+			<a class="txt1 ml10">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<span>john Deo</span>
+			</a>
+			<i class="fa fa-clock-o c ml10 c1" aria-hidden="true"></i>
+			<span class="c1">12 May</span>
+			<a class="txt1">
+				<i class="fa fa-comments ml10" aria-hidden="true"></i>
+				<span>5 Comments</span>
+			</a><br>
+			<button class="btn2 mt15 ml10">#New</button>	
+			<button class="btn3 ml10">#Health</button>
+		</div>
+		<hr style="border:1px dashed #ddddddf5">
+		<div class="js01 fl mt10">
+			<img src="images/small6.jpg" style="height:150px;width:100%">		
+		</div>
+		<div class="js001 fl mt10">
+			<h2 class="fn ml10 txt1">“Speaks perfect English”: Trump’s offensive praise of a Latino Border Patrol agent
+			</h2>
+			<a class="txt1 ml10">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<span>john Deo</span>
+			</a>
+			<i class="fa fa-clock-o c ml10 c1" aria-hidden="true"></i>
+			<span class="c1">12 May</span>
+			<a class="txt1">
+				<i class="fa fa-comments ml10" aria-hidden="true"></i>
+				<span>5 Comments</span>
+			</a><br>
+			<button class="btn2 ml10">#New</button>	
+			<button class="btn5 ml10">#Health</button>
+		</div>
+		<hr style="border:1px dashed #ddddddf5">
+	</div>
+
+	<div class="ca13 fl ml30">
+		<div class="ca012">
+			<div class="l5 fl">
+				<div class="hi mt300">
+					<h3 class="c fn1 txt ml170">Serving the country</h3>
+							<center><button class="btn2">#New</button>	
+							<button class="btn5 ml5 mt5">#Security</button>
+							<button class="btn3 ml5">#Politics</button>
+							<p class="c">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+							<a class="txt">
+								<i class="fa fa-user" aria-hidden="true"></i>
+								<span>john Deo</span>
+							</a>
+								<i class="fa fa-clock-o c ml10" aria-hidden="true"></i>
+								<span class="c">12 May</span>
+							<a class="txt">
+								<i class="fa fa-comments ml10" aria-hidden="true"></i>
+								<span>2 Comments</span>
+							</a></center>
+				</div>
+				
+			</div>
+			
+		</div>
+	</div>
+</div>
+<!-- categories1 end-->
+<!-- categories2 start-->
+<div class="ca00">
+	<div class="l1 ml100 fl">
+		<div class="l01">
+			<div class="l001">
+				<div class="l03">
+					<div class="l003 mt280 fl">
+					<center><h2 class="c txt">New Generation of people loving food</h2>
+							<button class="btn2 mt5">#New</button>	
+							<button class="btn5 ml5 mt5">#Sports</button>
+							<button class="btn3 ml5">#Treading</button>
+							<p class="c">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+							<a class="txt">
+								<i class="fa fa-user" aria-hidden="true"></i>
+								<span>john Deo</span>
+							</a>
+								<i class="fa fa-clock-o c ml10" aria-hidden="true"></i>
+							 	<span class="c">12 May</span>
+							 <a class="txt">
+								<i class="fa fa-comments ml10" aria-hidden="true"></i>
+								<span>2 Comments</span>
+							</a>
+						</center>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bx fl ml30 mt10">
+		<div class="js01 fl">
+			<img src="images/small1.jpg" style="height:140px;width:100%">
+		</div>
+		<div class="js001 fl">
+			<h2 class="fn ml10 txt1">7 reasons Hollywood doesn’t make romantic comedies anymore</h2>
+			<a class="txt1 ml10">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<span>john Deo</span>
+			</a>
+			<i class="fa fa-clock-o c ml10 c1" aria-hidden="true"></i>
+			<span class="c1">12 May</span>
+			<a class="txt1">
+				<i class="fa fa-comments ml10" aria-hidden="true"></i>
+				<span>5 Comments</span>
+			</a><br>
+			<button class="btn6 mt20 ml10">#New</button>
+			<button class="btn5 mt20 ml10">#Sports</button>
+		</div>
+		<hr style="border:1px dashed #ddddddf5">
+		<div class="js01 fl">
+			<img src="images/small2.jpg" style="height:140px;width:100%;">
+		</div>
+		<div class="js001 fl">
+			<h2 class="fn ml10 mt30 txt1">Must have gadgets in this century</h2>
+			<a class="txt1 ml10">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<span>john Deo</span>
+			</a>
+			<i class="fa fa-clock-o c ml10 c1" aria-hidden="true"></i>
+			<span class="c1">12 May</span>
+			<a class="txt1">
+				<i class="fa fa-comments ml10" aria-hidden="true"></i>
+				<span>5 Comments</span>
+			</a><br>
+			<button class="btn2 mt30 ml10">#New</button>	
+			<button class="btn3 ml10">#Health</button>
+		</div>
+		<hr style="border:1px dashed #ddddddf5">
+		<div class="js01 fl">
+			<img src="images/small3.jpg" style="height:140px;width: 100%;">
+		</div>
+		<div class="js001 fl">
+			<h2 class="fn ml10 txt1">Why conservatives love to hate Alexandria Ocasio-Cortez</h2>
+			<a class="txt1 ml10">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<span>john Deo</span>
+			</a>
+			<i class="fa fa-clock-o c ml10 c1" aria-hidden="true"></i>
+			<span class="c1">12 May</span>
+			<a class="txt1">
+				<i class="fa fa-comments ml10" aria-hidden="true"></i>
+				<span>5 Comments</span>
+			</a><br>
+			<button class="btn2 mt10 ml10">#New</button>	
+			<button class="btn5 ml10">#Health</button>
+		</div>
+		<hr style="border:1px dashed #ddddddf5">
+	</div>
+</div>
+<!-- categories2 end-->
+
+
+<!-- categories3 start-->
+<div class="ca01 mt-15">
+	<div class="ca12 ml100 fl mt-15">
+		<div class="js01 fl">
+			<img src="images/small4.jpg" style="height: 150px;width: 100%;">
+		</div>
+		<div class="js001 fl">
+			<h3 class="fn txt1 ml10">Watch: the 3 best performances of the 2018 VMAs</h3>
+			<a class="txt1 ml10">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<span>john Deo</span>
+			</a>
+				<i class="fa fa-clock-o c ml10 c1" aria-hidden="true"></i>
+				<span class="c1">12 May</span>
+			<a class="txt1">
+				<i class="fa fa-comments ml10" aria-hidden="true"></i>
+				<span>5 Comments</span>
+			</a><br>
+			<button class="btn2 mt15 ml10">#New</button>	
+			<button class="btn5 ml10">#Health</button>
+		</div>
+		<hr style="border:1px dashed #ddddddf5">
+
+		<div class="js01 fl mt10">
+			<img src="images/small5.jpg" style="height:150px;width:100%">
+		</div>
+		<div class="js001 fl mt10">
+			<h3 class="txt1 ml10 fn">Music bringing people together everywhere</h3>
+			<a class="txt1 ml10">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<span>john Deo</span>
+			</a>
+			<i class="fa fa-clock-o c ml10 c1" aria-hidden="true"></i>
+			<span class="c1">12 May</span>
+			<a class="txt1">
+				<i class="fa fa-comments ml10" aria-hidden="true"></i>
+				<span>5 Comments</span>
+			</a><br>
+			<button class="btn2 mt15 ml10">#New</button>	
+			<button class="btn3 ml10">#Health</button>
+		</div>
+		<hr style="border:1px dashed #ddddddf5">
+
+		<div class="js01 fl mt10">
+			<img src="images/small6.jpg" style="height:150px;width:100%">		
+		</div>
+		<div class="js001 fl mt10">
+			<h2 class="fn ml10 txt1">“Speaks perfect English”: Trump’s offensive praise of a Latino Border Patrol agent
+			</h2>
+			<a class="txt1 ml10">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<span>john Deo</span>
+			</a>
+			<i class="fa fa-clock-o c ml10 c1" aria-hidden="true"></i>
+			<span class="c1">12 May</span>
+			<a class="txt1">
+				<i class="fa fa-comments ml10" aria-hidden="true"></i>
+				<span>5 Comments</span>
+			</a><br>
+			<button class="btn2 ml10">#New</button>	
+			<button class="btn5 ml10">#Health</button>
+		</div>
+		<hr style="border:1px dashed #ddddddf5">
+	</div>
+	<div class="ca13 fl ml30">
+		<div class="ab">
+			<div class="ab1">
+				<div class="ab2"></div>
+				<div class="ab3">
+					<center><h4 class="c fs txt m0">Creativity comes within itself for everyone</h4>
+								<button class="btn2 mt20">#New</button>
+								<button class="btn5">#Education</button>
+								<button class="btn3">#Children</button>
+								<p class="c">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+							<a class="txt">
+								<i class="fa fa-user  ml150 fl " aria-hidden="true"></i>
+								<span class="fl  ml5">john Deo</span>
+							</a>
+								<i class="fa fa-clock-o c fl ml10" aria-hidden="true"></i>
+								<span class="fl c  ml5">12 May</span>
+					 		<a class="txt">
+								<i class="fa fa-comments fl  ml10 " aria-hidden="true"></i>
+								<span class="fl ml5 ">2 Comments</span>
+							</a></center>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- categories3 end -->
+
+<!-- fashion start-->
+
+<div class="he">
+	<div class="t">
+		<h1 class="ml100">Fashion</h1><hr class="h1">
+	</div>
+	<div class="he1 ml70 fl">
+		<div class="he2 ml30 fl">
+			<div class="i1">
+				<div class="mv03 fl">
+					<center><h3 class="mt220 txt3">Upcoming 50% sales off</h3><hr class="h1">
+						<a class="txt3">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span>john Deo</span>
+						</a>
+						<i class="fa fa-clock-o c ml10" aria-hidden="true"></i>
+						<span class="c">12 May</span><br>
+						<button class="btn2 mt10">#New</button>	
+						<button class="btn3">#Fashion</button>
+					</center>
+				</div>
+			</div>
+			<div class="i2 mt10">
+				<div class="mv03 fl">
+					<center><h3 class=" mt80 txt3">Best Outfit For Winter</h3><hr class="h1">
+						<a class="txt3">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span>john Deo</span>
+						</a>
+						<i class="fa fa-clock-o c ml10" aria-hidden="true"></i>
+						<span class="c">12 May</span><br>
+						<button class="btn2 mt10">#New</button>	
+						<button class="btn3">#Fashion</button>
+					</center>
+				</div>
+			</div>
+		</div>
+		<div class="he2 fl ml5">
+			<div class="i3">
+				<div class="mv03 fl">
+					<center><h3 class="txt3 mt80">The Killer Looks</h3><hr class="h1">
+						<a class="txt3">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span>john Deo</span>
+						</a>
+						<i class="fa fa-clock-o c ml10" aria-hidden="true"></i>
+						<span class="c">12 May</span><br>
+						<button class="btn2 mt15">#New</button>	
+						<button class="btn5">#Fashion</button>
+					</center>
+				</div>
+			</div>
+			<div class="i4 mt10">
+				<div class="mv03 fl">
+					<center><h3 class="txt3 mt220">Look Best For Interview</h3><hr class="h1">
+						<a class="txt3">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span>john Deo</span>
+						</a>
+						<i class="fa fa-clock-o c ml10" aria-hidden="true"></i>
+						<span class="c">12 May</span><br>
+						<button class="btn2 mt15">#New</button>	
+						<button class="btn3">#Fashion</button>
+					</center>
+				</div>
+			</div>
+		</div>
+		<div class="hh fl ml5">
+			<div class="mv03 fl">
+				<center><h3 class="txt3 mt430">Lopez announces her new fashion collection</h3><hr class="h1">
+						<a class="txt3">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span>john Deo</span>
+						</a>
+						<i class="fa fa-clock-o c ml10" aria-hidden="true"></i>
+						<span class="c">12 May</span><br>
+						<button class="btn6 mt15">#New</button>	
+						<button class="btn5">#Fashion</button>
+					</center>
+			</div>
+		</div>
+	</div>
+	
+</div>
+<!-- fashion end -->
+
+
+<!-- fashion1 start-->
+<div class="f1">
+	<div class="img ml100 fl">
+		<div class="s">
+			<div class="i6">
+				<div class="hk fl">
+					<div class="divv mt80 fl">
+						<center><h2 class="txt2">Top 10 guitar Riffs</h2>
+						<button class="btn2">#New</button>
+						<button class="btn5">#Music</button>
+						<button class="btn3">#Trending</button><br><br>
+						<a class="txt4">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span>Bob Dylan</span>
+						</a>
+						<i class="fa fa-clock-o colorr ml5" aria-hidden="true"></i>
+						<span class="colorr">12 May</span>	
+						<a class="txt4">
+							<i class="fa fa-comments ml5" aria-hidden="true"></i>
+							<span>2 comments</span>
+						</a>
+						</center>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="s mt5">
+			<div class="i7">
+				<div class="hk fl">
+					<div class="divv mt80 fl">
+						<center><h2 class="txt2">Children The Next Gen</h2>
+						<button class="btn2">#New</button>
+						<button class="btn5">#Sports</button>
+						<button class="btn3">#Trending</button><br><br>
+						<a class="txt4">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span>John Doe</span>
+						</a>
+						<i class="fa fa-clock-o colorr ml5" aria-hidden="true"></i>
+						<span class="colorr">12 May</span>	
+						<a class="txt4">
+							<i class="fa fa-comments ml5" aria-hidden="true"></i>
+							<span>2 comments</span>
+						</a>
+						</center>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="img fl ml5">
+		<div class="s">
+			<div class="i8">
+				<div class="hk fl">
+					<div class="divv fl mt80">
+						<center><h2 class="txt2">Top Golf Courts</h2>
+						<button class="btn2">#New</button>
+						<button class="btn5">#Sports</button>
+						<button class="btn3">#Trending</button><br><br>
+						<a class="txt4">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span>John Doe</span>
+						</a>
+						<i class="fa fa-clock-o colorr ml5" aria-hidden="true"></i>
+						<span class="colorr">12 May</span>	
+						<a class="txt4">
+							<i class="fa fa-comments ml5" aria-hidden="true"></i>
+							<span>2 comments</span>
+						</a>
+						</center>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="s mt5">
+			<div class="i9">
+				<div class="hk fl">
+					<div class="divv fl mt80">
+						<center><h2 class="txt2">Summer Beach</h2>
+						<button class="btn2">#New</button>
+						<button class="btn5">#Sports</button>
+						<button class="btn3">#Trending</button><br><br>
+						<a class="txt4">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span>John Doe</span>
+						</a>
+						<i class="fa fa-clock-o colorr ml5" aria-hidden="true"></i>
+						<span class="colorr">12 May</span>	
+						<a class="txt4">
+							<i class="fa fa-comments ml5" aria-hidden="true"></i>
+							<span>2 comments</span>
+						</a>
+						</center>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="img fl ml5">
+		<div class="s">
+			<div class="i10">
+				<div class="hk fl">
+					<div class="divv fl mt80">
+						<center><h2 class="txt2">Early Morning Breakfast</h2>
+						<button class="btn2">#New</button>
+						<button class="btn5">#Sports</button>
+						<button class="btn3">#Trending</button><br><br>
+						<a class="txt4">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span>John Doe</span>
+						</a>
+						<i class="fa fa-clock-o colorr ml5" aria-hidden="true"></i>
+						<span class="colorr">12 May</span>	
+						<a class="txt4">
+							<i class="fa fa-comments ml5" aria-hidden="true"></i>
+							<span>2 comments</span>
+						</a>
+						</center>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="s mt5">
+			<div class="i11">
+				<div class="hk fl">
+					<div class="divv fl mt80">
+						<center><h2 class="txt2">Mountains Calling</h2>
+						<button class="btn2">#New</button>
+						<button class="btn5">#Sports</button>
+						<button class="btn3">#Trending</button><br><br>
+						<a class="txt4">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span>John Doe</span>
+						</a>
+						<i class="fa fa-clock-o colorr ml5" aria-hidden="true"></i>
+						<span class="colorr">12 May</span>	
+						<a class="txt4">
+							<i class="fa fa-comments ml5" aria-hidden="true"></i>
+							<span>2 comments</span>
+						</a>
+						</center>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- fashion1 end -->
+
+
+
+<!-- <div class="ft">
+	<div class="ft1 fl mt20">
+		<center><h2 class="m0 c">Find Us on Instagram</h2><hr class="h5"></center>
+	</div>
+	<div class="ft2 fl">
+		<div class="shadow1">
+			<div class="ft3 fl">
+				<div class="no1 fl ml100">
+					<img src="images/footer2.jpg"style="height: 200px;width:100%">
+				</div>
+				<div class="no1 fl">
+					<img src="images/footer1.jpg"style="height: 200px;width:100%">
+				</div>
+				<div class="no1 fl">
+					<img src="images/footer3.jpg"style="height: 200px;width:100%">
+				</div>
+				<div class="no1 fl">
+					<img src="images/footer4.jpg"style="height: 200px;width:100%">
+				</div>
+				<div class="no1 fl">
+					<img src="images/footer2.jpg"style="height: 200px;width:100%">
+				</div>
+				<div class="no1 fl">
+					<img src="images/footer1.jpg"style="height: 200px;width:100%">
+				</div>
+			</div> -->
+
+		<!-- NewMag start -->
+			<!-- <div class="new fl ml100 mt100">
+				<h2 class="c m0">NewMag</h2><hr class="h2">
+				<h3 class="colorr">amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</h3>
+				<i class="fa fa-facebook c ml10 fn" aria-hidden="true"></i>
+				<i class="fa fa-twitter c fn ml10" aria-hidden="true"></i>
+				<i class="fa fa-instagram c fn ml10" aria-hidden="true"></i>
+			</div> -->
+		<!-- NewMag end -->
+
+		<!-- categories start -->
+
+		<!-- <div class="cat fl mt100 ml15">
+			<h2 class="c m0">Categories</h2><hr class="h2">
+			<h3 class="txt4">Entertainment</h3>
+			<h3 class="txt4">Sports</h3>
+			<h3 class="txt4">Politics</h3>
+			<h3 class="txt4">National</h3>
+			<h3 class="txt4">Blog</h3>
+		</div> -->
+		<!-- categories end -->
+
+		<!-- popular start -->
+
+		<!-- <div class="cat fl mt100 ml15">
+			<h2 class="c m0">Popular Tags</h2><hr class="h2">
+			<h3 class="txt4">Entertainment</h3>
+			<h3 class="txt4">Sports</h3>
+			<h3 class="txt4">Politics</h3>
+			<h3 class="txt4">National</h3>
+			<h3 class="txt4">International</h3>
+		</div> -->
+
+		<!-- popular end -->
+
+		<!-- Newsletter start -->
+
+		<!-- <div class="new1 fl mt100 ml15">
+			<h2 class="c m0">NewsLetter</h2><hr class="h2">
+			<h3 class="c">Dont Miss anything</h3>
+			<h3 class="c">Subscribe to our #newsletter</h3>
+			<input type="email" placeholder="Enter Email" style="height:30px; width:80%; padding: 2px;	border-radius:1px; border: none;">
+			<button style="background: #ed3030;height:35px;width:35px;border:none;position: relative;left: -5px;"><i class="fa fa-paper-plane c" aria-hidden="true"></i></button>
+		</div> -->
+		<!-- Newsletter end -->
+
+
+
+		<!-- <hr class="h3">
+			<center><div class="copy">
+			<h3 class="c mt20 colorr">Copyright © 2023 <a style="color:red">Hi - Tech</a> - All Rights reserved</h3>
+			</div></center>
+		<hr class="h3">
+		</div>
+	</div>
+	
+</div> -->
+<!-- footer part start-->
+<div class="ft fl">
+	<div class="ft1 fl mt20">
+		<center><h2 class="m0 c">Find Us on Instagram</h2><hr class="h5"></center>
+	</div>
+	<div class="ft2">
+		<div class="shadow1">
+			<div class="ft3 fl">
+				<div class="no1 fl ml100">
+					<img src="images/footer2.jpg"style="height: 200px;width:100%">
+				</div>
+				<div class="no1 fl">
+					<img src="images/footer1.jpg"style="height: 200px;width:100%">
+				</div>
+				<div class="no1 fl">
+					<img src="images/footer3.jpg"style="height: 200px;width:100%">
+				</div>
+				<div class="no1 fl">
+					<img src="images/footer4.jpg"style="height: 200px;width:100%">
+				</div>
+				<div class="no1 fl">
+					<img src="images/footer2.jpg"style="height: 200px;width:100%">
+				</div>
+				<div class="no1 fl">
+					<img src="images/footer1.jpg"style="height: 200px;width:100%">
+				</div>
+			</div>
+
+			<!-- NewMag start -->
+			<div class="new fl ml100 mt100">
+				<h2 class="c m0">NewMag</h2><hr class="h2">
+				<h3 class="colorr">amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</h3>
+				<i class="fa fa-facebook c ml10 fn" aria-hidden="true"></i>
+				<i class="fa fa-twitter c fn ml10" aria-hidden="true"></i>
+				<i class="fa fa-instagram c fn ml10" aria-hidden="true"></i>
+			</div>
+		<!-- NewMag end -->
+
+
+		<!-- categories start -->
+
+		<div class="cat fl mt100 ml15">
+			<h2 class="c m0">Categories</h2><hr class="h2">
+			<h3 class="txt4">Entertainment</h3>
+			<h3 class="txt4">Sports</h3>
+			<h3 class="txt4">Politics</h3>
+			<h3 class="txt4">National</h3>
+			<h3 class="txt4">Blog</h3>
+		</div>
+		<!-- categories end -->
+
+		<!-- popular start -->
+
+		<div class="cat fl mt100 ml15">
+			<h2 class="c m0">Popular Tags</h2><hr class="h2">
+			<h3 class="txt4">Entertainment</h3>
+			<h3 class="txt4">Sports</h3>
+			<h3 class="txt4">Politics</h3>
+			<h3 class="txt4">National</h3>
+			<h3 class="txt4">International</h3>
+		</div>
+
+		<!-- popular end -->
+
+			<!-- Newsletter start -->
+
+		<div class="new1 fl mt100 ml15">
+			<h2 class="c m0">NewsLetter</h2><hr class="h2">
+			<h3 class="c">Dont Miss anything</h3>
+			<h3 class="c">Subscribe to our #newsletter</h3>
+			<input type="email" placeholder="Enter Email" style="height:30px; width:80%; padding: 2px;	border-radius:1px; border: none;">
+			<button style="background: #ed3030;height:35px;width:35px;border:none;position: relative;left: -5px;"><i class="fa fa-paper-plane c" aria-hidden="true"></i></button>
+		</div>
+		<!-- Newsletter end -->
+		<hr class="h3">
+			<center><div class="copy">
+			<h3 class="c mt20 colorr">Copyright © 2023 <a style="color:red">Hi - Tech</a> - All Rights reserved</h3>
+			</div></center>
+		<hr class="h3">
+
+
+		</div>
+		
+	</div>
+</div>
+
+<!-- footer part end-->
+
+
+</body>
+</html>
